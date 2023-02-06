@@ -1,0 +1,41 @@
+.footer-container {
+
+    .footer-flex-container {
+        margin: 0 auto 20px;
+        width: 600px;
+        text-align: center;
+
+        
+        a {
+            color: rgb(0, 0, 0);
+            margin-right: 80px;
+        }
+
+        .footer-flex-item {
+            text-align: center;
+            margin: 0 20px;
+        }
+        
+    }
+
+    .footer-content-stripe {
+        background-color: rgb(0, 0, 0);
+        width: 60px;
+        height: 1px;
+        margin: 0px auto;
+        border-radius: 2px;
+    }
+
+    .footer-stripe-text {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 220px;
+        margin: 0 auto 40px;
+
+        img {
+            height: 39px;
+            width: 39px;
+        }
+    }
+}

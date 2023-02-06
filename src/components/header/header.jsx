@@ -1,8 +1,8 @@
 import './header.scss'
-import logo from './asset/Group.png';
-import coffeeBeans from './asset/coffee-beans (1).png';
+import logo from './assets/Group.png';
+import coffeeBeans from './assets/coffee-beans (1).png';
 
-const Header = ({employees, increase}) => {
+const Header = () => {
     return (
             <div className='header-container'>
                 <div className="header-flex-container">
