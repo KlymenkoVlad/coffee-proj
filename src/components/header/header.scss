@@ -1,0 +1,53 @@
+.header-container {
+    
+    background: url('./asset/Main bg.jpg')  center/cover ;
+    height: 640px;
+    margin: 0px;
+    width: 100%;
+
+    .header-flex-container {
+        
+        padding: 50px 0px 50px 100px;
+
+        a {
+            margin-right: 30px;
+            color: white;
+        }
+            
+    }
+
+    .header-content {
+        text-align: center;
+
+
+
+        .header-content-stripe {
+            background-color: white;
+            width: 60px;
+            height: 1px;
+            margin: 0px auto;
+            border-radius: 2px;
+        }
+
+        .header-btn {
+            background-color: rgba(0, 0, 0, 0);
+            border: solid rgb(255, 255, 255) 1px;
+            width: 120px;
+            height: 30px;
+            border-radius: 3px;
+        }
+
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 220px;
+            margin: 0 auto;
+
+            img {
+                height: 29px;
+                width: 29px;
+            }
+        }
+    }
+}
