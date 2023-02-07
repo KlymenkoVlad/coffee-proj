@@ -5,6 +5,10 @@
     margin: 0px;
     width: 100%;
 
+    h1 {
+        font-size: 40px;
+    }
+
     .header-flex-container {
         
         padding: 50px 0px 50px 100px;
@@ -12,6 +16,12 @@
         a {
             margin-right: 30px;
             color: white;
+            transition: all 0.3s ease;
+            text-decoration: none;
+
+            &:hover {
+                color: rgb(172, 172, 172)
+            }
         }
             
     }
@@ -29,10 +39,19 @@
 
         .header-btn {
             background-color: rgba(0, 0, 0, 0);
+            font-family: 'Merienda';
+            font-style: normal;
+            font-weight: 700;
             border: solid rgb(255, 255, 255) 1px;
             width: 120px;
             height: 30px;
             border-radius: 3px;
+            transition: all 0.3s ease;
+
+            &:hover {
+                width: 140px;
+                height: 50px;
+            }
         }
 
         div {

@@ -4,10 +4,10 @@ import img1 from './assets/71qBQnpQFYL.png';
 import img2 from './assets/815O9ktyfUL.png';
 import img3 from './assets/91Ryk2gKejL.png';
 
-const OurBest = ({employees, increase}) => {
+const OurBest = () => {
     return (
         <div className="ourBest-container">
-            <h3>Our best</h3>
+            <h2>Our best</h2>
             <div className="ourBest-flex-container">
                 <div className="ourBest-flex-item">
                     <div className='ourBest-rectangle'>

@@ -2,7 +2,7 @@ import './about-us.scss'
 
 import blackBeans from './assets/coffee-beans-black.png'
 
-const AboutUs = ({employees, increase}) => {
+const AboutUs = () => {
     return (
         <div className='aboutUs-container'>
             <h2>About Us</h2>

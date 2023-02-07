@@ -5,16 +5,26 @@
         width: 600px;
         text-align: center;
 
+        img {
+            margin-left: 60px;
+        }
         
+        a:first-of-type {
+            margin: 0;
+            
+        }
         a {
             color: rgb(0, 0, 0);
-            margin-right: 80px;
-        }
-
-        .footer-flex-item {
+            margin: 0 30px;
             text-align: center;
-            margin: 0 20px;
+            text-decoration: none;
+            transition: all 0.5s ease;
+
+            &:hover {
+                color: rgb(117, 117, 117);
+            }
         }
+        
         
     }
 
